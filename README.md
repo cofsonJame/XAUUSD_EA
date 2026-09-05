@@ -1,1 +1,3 @@
 # XAUUSD_EA
+
+XAUUSD量化策略开发
