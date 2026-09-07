@@ -12,7 +12,6 @@
 
 ![alt text](image.png)
 
-
 ### 2.1 趋势识别与通道突破
 系统依赖自定义 `DragonChannel` 指标的缓冲区数据，实时判断市场处于 **多头 (UP)**、**空头 (DOWN)** 或 **震荡 (SIDEWAYS)** 状态：
 - **多头判定**：主快线（Line1、Line2）均位于通道上轨（su/sl）上方。
