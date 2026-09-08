@@ -17,7 +17,7 @@ input ulong  MagicNumber         = 20260907;   // Magic number
 input int    DeviationPoints     = 50;         // Max deviation (points)
 
 //--- Indicator
-input string DragonIndicatorName = "DragonChannel(2)";
+input string DragonIndicatorName = "DragonChannel";
 
 //--- Strategy
 input bool   OnlyTradeM5         = true;       // Only trade M5
@@ -35,7 +35,7 @@ input double MaxDailyLoss        = 0.0;        // 0 = disabled; account currency
 input int    MaxConsecutiveLosses= 0;          // 0 = disabled
 input bool   CloseBeforeTradingStop = false;   // Reserved for future session filter
 
-//--- Indicator buffers from DragonChannel(2).mq5
+//--- Indicator buffers from DragonChannel.mq5
 // Buffer 0  = Line1 (g_ibuf_116)
 // Buffer 1  = Line2 (g_ibuf_120)
 // Buffer 15 = slld_0 (upper stop line)
