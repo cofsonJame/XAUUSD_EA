@@ -16,8 +16,8 @@ CTrade trade;
 //====================================================================
 input double Lots            = 0.10;       // 下单手数
 input ulong  MagicNumber     = 20260907;   // EA魔术号，用于识别本EA仓位
-input int    DeviationPoints = 50;         // 最大允许滑点，单位：Point
-input double MaxLossPerTradeUSD = 150.0;   // 单笔最大允许亏损金额，默认150美元；0=关闭
+input int    DeviationPoints = 300;         // 最大允许滑点，单位：Point
+input double MaxLossPerTradeUSD = 100.0;   // 单笔最大允许亏损金额，默认150美元；0=关闭
 
 //====================================================================
 // ② DragonChannel 指标参数
